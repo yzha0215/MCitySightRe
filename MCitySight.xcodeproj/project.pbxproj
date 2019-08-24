@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		2F0C74BC2310EAA500D1366A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C74BB2310EAA500D1366A /* AppDelegate.swift */; };
-		2F0C74BE2310EAA500D1366A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C74BD2310EAA500D1366A /* ViewController.swift */; };
 		2F0C74C12310EAA600D1366A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C74BF2310EAA600D1366A /* Main.storyboard */; };
 		2F0C74C32310EAA700D1366A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C74C22310EAA700D1366A /* Assets.xcassets */; };
 		2F0C74C62310EAA700D1366A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C74C42310EAA700D1366A /* LaunchScreen.storyboard */; };
+		2F0C74CE2311235400D1366A /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C74CD2311235400D1366A /* Sight.swift */; };
+		2F0C74D0231123BA00D1366A /* SightMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C74CF231123BA00D1366A /* SightMapViewController.swift */; };
+		2F0C74D62311245800D1366A /* AddSightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C74D52311245800D1366A /* AddSightViewController.swift */; };
+		2F0C74D82311250700D1366A /* SightListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C74D72311250700D1366A /* SightListTableViewCell.swift */; };
+		2F0C74DA2311256E00D1366A /* SightListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C74D92311256E00D1366A /* SightListTableViewController.swift */; };
+		2F0C74DC23112AE900D1366A /* SightDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C74DB23112AE900D1366A /* SightDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F0C74B82310EAA500D1366A /* MCitySight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCitySight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0C74BB2310EAA500D1366A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F0C74BD2310EAA500D1366A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F0C74C02310EAA600D1366A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F0C74C22310EAA700D1366A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F0C74C52310EAA700D1366A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F0C74C72310EAA700D1366A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0C74CD2311235400D1366A /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
+		2F0C74CF231123BA00D1366A /* SightMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightMapViewController.swift; sourceTree = "<group>"; };
+		2F0C74D52311245800D1366A /* AddSightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSightViewController.swift; sourceTree = "<group>"; };
+		2F0C74D72311250700D1366A /* SightListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightListTableViewCell.swift; sourceTree = "<group>"; };
+		2F0C74D92311256E00D1366A /* SightListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightListTableViewController.swift; sourceTree = "<group>"; };
+		2F0C74DB23112AE900D1366A /* SightDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				2F0C74BB2310EAA500D1366A /* AppDelegate.swift */,
-				2F0C74BD2310EAA500D1366A /* ViewController.swift */,
 				2F0C74BF2310EAA600D1366A /* Main.storyboard */,
 				2F0C74C22310EAA700D1366A /* Assets.xcassets */,
 				2F0C74C42310EAA700D1366A /* LaunchScreen.storyboard */,
 				2F0C74C72310EAA700D1366A /* Info.plist */,
+				2F0C74CD2311235400D1366A /* Sight.swift */,
+				2F0C74CF231123BA00D1366A /* SightMapViewController.swift */,
+				2F0C74D52311245800D1366A /* AddSightViewController.swift */,
+				2F0C74D72311250700D1366A /* SightListTableViewCell.swift */,
+				2F0C74D92311256E00D1366A /* SightListTableViewController.swift */,
+				2F0C74DB23112AE900D1366A /* SightDetailViewController.swift */,
 			);
 			path = MCitySight;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0C74BE2310EAA500D1366A /* ViewController.swift in Sources */,
 				2F0C74BC2310EAA500D1366A /* AppDelegate.swift in Sources */,
+				2F0C74D0231123BA00D1366A /* SightMapViewController.swift in Sources */,
+				2F0C74D82311250700D1366A /* SightListTableViewCell.swift in Sources */,
+				2F0C74D62311245800D1366A /* AddSightViewController.swift in Sources */,
+				2F0C74CE2311235400D1366A /* Sight.swift in Sources */,
+				2F0C74DA2311256E00D1366A /* SightListTableViewController.swift in Sources */,
+				2F0C74DC23112AE900D1366A /* SightDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
