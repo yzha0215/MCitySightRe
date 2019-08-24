@@ -6,6 +6,7 @@ Sat 24 Aug:
 - initiate the project
 - create the view controllers on story board
 - table view partially done
+
 TODO:
 - add core data
 - add map annotation
